@@ -3,7 +3,7 @@ Memoire a la francaise
 
 This is a matching game, with pictures that I took in France when living there. 
 
-This game can be shared with former colleagues at ENHS, SFHS, UCO, OCCC, and KSU.
+This game can be shared with former colleagues at ENHS, SFHS, UCO, OCCC, OU, and KSU.
 
 Rules: 
 -Player 1:
@@ -118,3 +118,4 @@ Wednesday: Continue working on JS
 Thursday: Wrap up JS 
 Friday: Ask any questions and if there's time, work on Bonus I set for myself
 Saturday and Sunday: Make sure all code is working and finish Bonus if I have time
+
