@@ -1,6 +1,7 @@
 body {
     justify-content: center;
     align-items: center;
+    background-image: url('IMG-3621.png');
 }
 
 h1 {
@@ -17,3 +18,31 @@ h2 {
 
 /* I want the game title and rules to be in the center, smaller font, different colors */
 /* accomplished the different colors */
+
+#gameboard {
+    margin: 0 auto;
+    padding: 1em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: 100px 100x 100x 100px;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-areas: "top-left top-left top-right"
+                          "game game game"
+                          "btm-left btm-right btm-right";
+
+
+                        }
+/* getting frustrated with how the game board is displaying because I want 6 colums and 4 rows*/
+
+.tiles {
+    border: 2px solid black;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    height: 150px;
+    width: 100px; 
+}
+
+
+
