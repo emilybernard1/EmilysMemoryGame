@@ -39,12 +39,12 @@ Project notes:
 -Once chosen, the tile should change to a picture from France.
 -Game should recognize if the same two picture tiles are chosen. 
 -Will need an array of my images that can be looped over in order to create the board.
--If it's a match, a message should appear "Youpi! Tu as gange un point! Yay! You get a point!"
+-If it's a match, a message should appear "Youpi! Tu as gagné un point! Yay! You get a point!"
 -Needs a title at the top
 -Set a background pic from France.
 -Each player gets to choose two tiles per turn.
 -Once the game board is cleared of all tiles, players can press a "reset" button ("Refaire") to restart the game.
--At the end of the game, a message should pop up saying "Game over! C'eat fini!"
+-At the end of the game, a message should pop up saying "Game over! C'est fini!"
 
 
 Bonus (that I set for myself):

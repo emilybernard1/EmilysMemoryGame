@@ -1,0 +1,19 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+/* I want the game title and rules to be in the center, smaller font, different colors */
+/* accomplished the different colors */
