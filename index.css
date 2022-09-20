@@ -13,6 +13,13 @@ body {
     padding: 20px;
 }
 
+#playerscores {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+}
 
 h1 {
     align-items: center;
@@ -55,7 +62,7 @@ h2 {
     /* display: flex; */
     /* flex-wrap: wrap; */
     /* justify-content: center; */
-    height: 150px;
+    height: 100px;
     width: 100px; 
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU');
     background-size: cover;
