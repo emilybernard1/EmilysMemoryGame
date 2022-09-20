@@ -27,21 +27,22 @@ body {
     position: relative;
 }
 
-h1 {
+h1, h2 {
     align-items: center;
     justify-content: center;
-    color: blue;
     margin: 0 auto;
     padding: 20px;
     position: relative;
     font-size: 50px;
+
+}
+
+h1 {
+    color: blue;
 }
 
 h2 {
-    align-items: center;
-    justify-content: center;
     color: red;
-    margin: 0  auto;
 }
 
 /* I want the game title and rules to be in the center, smaller font, different colors */

@@ -125,7 +125,7 @@ function createGameBoard () {
 
 
 // need make a function to flip the tiles
-const flipTile() => {
+const flipTile () => {
     let tileId = this.getAttribute('data-id')
     tilesChosen.push(imgArr[tileId].name)
     tilesChosenId.push(tileId)
