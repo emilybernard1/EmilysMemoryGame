@@ -1,3 +1,9 @@
+/* To do:
+    1. Figure out how to get the rule and game board in the center of the page
+    2. Get player 1's box to be on the left
+    3. Get player 2's box to be on the right
+    4. Get the Refaire button to be smaller and centered */
+
 body {
     justify-content: center;
     align-items: center;
@@ -18,7 +24,7 @@ body {
     align-items: center;
     margin: 0 auto;
     padding: 20px;
-    position: absolute;
+    position: relative;
 }
 
 h1 {
@@ -27,7 +33,7 @@ h1 {
     color: blue;
     margin: 0 auto;
     padding: 20px;
-    /* position: relative; */
+    position: relative;
     font-size: 50px;
 }
 
@@ -44,6 +50,7 @@ h2 {
 #gameboard {
     margin: 0 auto;
     padding: 1em;
+    position: relative;
     display: grid;
     grid-gap: 1em;
     grid-template-rows: 100px 100x 100x 100px;
@@ -58,6 +65,7 @@ h2 {
 
 .tiles {
     border: 2px solid black;
+    /* commented the code below out because I'm making the game board in a grid above. */
     /* display: inline-block; */
     /* display: flex; */
     /* flex-wrap: wrap; */
