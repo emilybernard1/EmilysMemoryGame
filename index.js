@@ -126,9 +126,9 @@ function checkForMatch(){
     if (tileChosen[0] === tileChosen[1]){
         alert('Youpi! Tu as fait un match! Yay! You made a match!')
         tile[optionOneId].setAttribute('src', 'imgArr')
-        // may need to change the above image source
+        // may need to change the image source
         tile[optionTwoId].setAttribute('src', 'imgArr')
-        tileWon.push(tilesChosen)
+        tileWon.push(tileChosen)
     } else {
         tile[optionOneId].setAttribute('src', 'imgArr')
         tile.optionTwoId.setAttribute('src', 'imgArr')
@@ -166,4 +166,31 @@ flipTile()
 // }
 
 
+// I need to modify the below (from Tic Tac Toe) to get it to work with this memory game.
+// const resetGameBoard = () => {
+//     gameBoard = [];
+//     isGameActive = true;
+//     announcer.classList.add('hide');
+//     currentPlayer = 'x';
+//     // if (currentPlayer === 'o') {
+//     //     changePlayer();
+//     // }
+
+//     tiles.forEach(tile => {
+//         tile.innerText = '';
+//         tile.classList.remove('playerx');
+//         tile.classList.remove('playero');
+//         tile.classList.remove('highlight');
+//     });
+//     // tiles.forEach(function(tile){
+//     //     tile.addEventListener('click', function(){
+//     //         if(tile.innerText.trim() != "") return
+//     //         tile.innerText = currentPlayer
+//     //         checkForWinner()
+//     //         currentPlayer = currentPlayer == "x" ? "o" : "x"
+//     //     })
+//     // })
+// }
+
+// resetButton.addEventListener('click', resetGameBoard);
 })
