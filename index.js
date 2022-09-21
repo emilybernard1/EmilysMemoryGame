@@ -102,17 +102,17 @@ const imgArr = [
 imgArr.sort(() => 0.5 - Math.random())
 
 const gameboard = document.querySelector('.gameboard')
-const scoreDisplay = document.querySelector('#score')
+const scoreDisplay = document.querySelector('.result')
 let tileChosen = []
 let tileChosenId = []
-const tileWon[]
+const tileWon = []
 
 function createGameBoard () {
     for(let i = 0; i < imgArr.length; i++) {
         let tile = document.createElement('img')
         tile.setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")');
         tile.setAttribute('data-id', i)
-        // tile.addEventListener('click', flipcard)
+        tile.addEventListener('click', flipTile)
         gameboard.appendChild(tile)
     }
 }
@@ -125,13 +125,13 @@ function checkForMatch(){
     const optionTwoId = tileChosenId[1]
     if (tileChosen[0] === tileChosen[1]){
         alert('Youpi! Tu as fait un match! Yay! You made a match!')
-        tile[optionOneId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tile[optionOneId].setAttribute('src', 'imgArr')
         // may need to change the above image source
-        tile[optionTwoId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tile[optionTwoId].setAttribute('src', 'imgArr')
         tileWon.push(tilesChosen)
     } else {
-        tile[optionOneId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
-        tile.optionTwoId.setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tile[optionOneId].setAttribute('src', 'imgArr')
+        tile.optionTwoId.setAttribute('src', 'imgArr')
         alert('Tant pis! Pas de match! Too bad! No match!')
     }
     tileChosen = []
