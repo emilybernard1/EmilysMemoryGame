@@ -1,7 +1,3 @@
-// To do:
-    // 1. Finish checkForMatch function
-    // 2. 
-
 document.addEventListener('DOMContentLoaded', () => {
 
 const imgArr = [ 
@@ -103,9 +99,13 @@ const imgArr = [
     },
 ]
 
+imgArr.sort(() => 0.5 - Math.random())
+
 const gameboard = document.querySelector('.gameboard')
-let tilesChosen = []
-let tilesChosenId = []
+const scoreDisplay = document.querySelector('#score')
+let tileChosen = []
+let tileChosenId = []
+const tileWon[]
 
 function createGameBoard () {
     for(let i = 0; i < imgArr.length; i++) {
@@ -116,34 +116,54 @@ function createGameBoard () {
         gameboard.appendChild(tile)
     }
 }
-
+createGameBoard()
 
 // need to make a function to check for a match
+function checkForMatch(){
+    let tile = document.querySelectorAll('img')
+    const optionOneId = tileChosenId[0]
+    const optionTwoId = tileChosenId[1]
+    if (tileChosen[0] === tileChosen[1]){
+        alert('Youpi! Tu as fait un match! Yay! You made a match!')
+        tile[optionOneId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        // may need to change the above image source
+        tile[optionTwoId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tileWon.push(tilesChosen)
+    } else {
+        tile[optionOneId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tile.optionTwoId.setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        alert('Tant pis! Pas de match! Too bad! No match!')
+    }
+    tileChosen = []
+    tileChosenId = []
+    scoreDisplay.textContent = tileWon.length
+    if (tileWon.length === imgArr.length/2) {
+        scoreDisplay.textContent = 'Féliciations! Vous avez gagné! Congratulations! You won!'
+    }
+}
+checkForMatch()
 
-
-
-
-
-// need make a function to flip the tiles
-const flipTile () => {
+function flipTile(){
     let tileId = this.getAttribute('data-id')
-    tilesChosen.push(imgArr[tileId].name)
-    tilesChosenId.push(tileId)
+    tileChosen.push(imgArr[tileId].name)
+    tileChosenId.push(tileId)
     this.setAttribute('src', imgArr[tileId].img)
-    if (tilesChosen.length === 2) {
+    if (tileChosen.length === 2) {
         setTimeout(checkForMatch, 500)
     }
 }
+flipTile()
 
-createGameBoard()
-
-
-
-
-
-
-
-
+// Can I change the flipTile function to loook this it does below?
+// const flipTile () => {
+//     let tileId = this.getAttribute('data-id')
+//     tilesChosen.push(imgArr[tileId].name)
+//     tilesChosenId.push(tileId)
+//     this.setAttribute('src', imgArr[tileId].img)
+//     if (tilesChosen.length === 2) {
+//         setTimeout(checkForMatch, 500)
+//     }
+// }
 
 
 })
