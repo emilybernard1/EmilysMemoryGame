@@ -19,7 +19,7 @@ body {
 }
 
 #main {
-    background-color: blue;
+    /* background-color: blue; */
     /* display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 20% 20%; */
@@ -38,7 +38,7 @@ body {
     /* display: flex;
     flex-direction: row; */
     /* grid-column-start: 1; */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 h1, h2 {
@@ -67,7 +67,7 @@ h2 {
     flex-wrap: wrap;
     height: 600px;
     width: 800px;
-    background-color: white;
+    /* background-color: white; */
     cursor: pointer;
     position: relative;
     /* I'm trying to get the board centered on the screen */
@@ -154,10 +154,10 @@ h2 {
     border: 2px solid black;
     background-color: white;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     margin: 0 auto;
     padding: 10px;
-    justify-items: center;
     position: relative;
     border-radius: 10px;
     font-size: 20px;
