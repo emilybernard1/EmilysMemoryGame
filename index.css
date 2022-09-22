@@ -69,6 +69,7 @@ h2 {
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+    background-color: white
 }
     /* background-color: white;
     margin: 0 auto;
@@ -92,13 +93,13 @@ h2 {
     /* display: flex; */
     /* flex-wrap: wrap; */
     /* justify-content: center; */
-    height: 100px;
+    /* height: 100px;
     width: 100px; 
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU');
     background-size: cover;
     border-radius: 10px;
     cursor: pointer;
-} */
+} */ 
 
 #rulesSection {
     font-size: 20px;
@@ -107,13 +108,14 @@ h2 {
     background-color: lightgrey;
     width: 30%;
     margin: 0 auto;
-    padding: 65px;
+    padding: 20px;
     grid-column-start: 3;
     /* display: inline-flex; */
     justify-content: center;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 .player1 {
@@ -126,6 +128,7 @@ h2 {
     font-size: 20px;
     padding: 20px;
     position: relative;
+    border-radius: 10px;
 }
 
 .player2 {
@@ -138,6 +141,7 @@ h2 {
     font-size: 20px;
     padding: 20px;
     position: relative;
+    border-radius: 10px;
 }
 
 .refaireButton {
@@ -154,12 +158,12 @@ h2 {
     margin-left: 1em;
     cursor: pointer;
     width: 100px;
-    grid-row-start: 2;
-    grid-column-start: 2;
+    /* grid-row-start: 2;
+    grid-column-start: 2; */
 }
 
 /* trying to get the refaire button to be in the second row of the main grid, not the game grid */
-main .refaireButton {
+/* main .refaireButton {
     grid-row-start: 2;
     grid-column-start: 2;
-}
+} */

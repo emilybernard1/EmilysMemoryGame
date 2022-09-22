@@ -102,56 +102,59 @@ const imgArr = [
 imgArr.sort(() => 0.5 - Math.random())
 
 const gameboard = document.querySelector('.gameboard')
-const scoreDisplay = document.querySelector('.result')
-let tileChosen = []
-let tileChosenId = []
-const tileWon = []
+const scoreDisplay = document.querySelector('#result')
+let tilesChosen = []
+let tilesChosenId = []
+const tilesWon = []
 
+// need function to create the gameboard
 function createGameBoard () {
     for(let i = 0; i < imgArr.length; i++) {
         let tile = document.createElement('img')
-        tile.setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")');
+        tile.setAttribute('src', 'frenchmemorygamepics/poppy.png');
         tile.setAttribute('data-id', i)
         tile.addEventListener('click', flipTile)
         gameboard.appendChild(tile)
     }
 }
+
 createGameBoard()
 
 // need to make a function to check for a match
 function checkForMatch(){
-    let tile = document.querySelectorAll('img')
-    const optionOneId = tileChosenId[0]
-    const optionTwoId = tileChosenId[1]
-    if (tileChosen[0] === tileChosen[1]){
+    let tiles = document.querySelectorAll('img')
+    const optionOneId = tilesChosenId[0]
+    const optionTwoId = tilesChosenId[1]
+    if (tilesChosen[0] === tilesChosen[1]){
         alert('Youpi! Tu as fait un match! Yay! You made a match!')
-        tile[optionOneId].setAttribute('src', 'imgArr')
-        // may need to change the image source
-        tile[optionTwoId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
-        tileWon.push(tileChosen)
+        tiles[optionOneId].setAttribute('src', 'frenchmemorygamespics/white.png')
+        tiles[optionTwoId].setAttribute('src', 'frenchmemorygamespics/white.png')
+        tilesWon.push(tilesChosen)
     } else {
-        tile[optionOneId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
-        tile.optionTwoId.setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tiles[optionOneId].setAttribute('src', 'frenchmemorygamepics/poppy.png')
+        tiles.optionTwoId.setAttribute('src', 'frenchmemorygamepics/poppy.png')
         alert('Tant pis! Pas de match! Too bad! No match!')
     }
-    tileChosen = []
-    tileChosenId = []
-    scoreDisplay.textContent = tileWon.length
-    if (tileWon.length === imgArr.length/2) {
+    tilesChosen = []
+    tilesChosenId = []
+    scoreDisplay.textContent = tilesWon.length
+    if (tilesWon.length === imgArr.length/2) {
         scoreDisplay.textContent = 'Félicitations! Vous avez gagné! Congratulations! You won!'
     }
 }
+
 checkForMatch()
 
 function flipTile(){
     let tileId = this.getAttribute('data-id')
-    tileChosen.push(imgArr[tileId].name)
-    tileChosenId.push(tileId)
+    tilesChosen.push(imgArr[tileId].name)
+    tilesChosenId.push(tileId)
     this.setAttribute('src', imgArr[tileId].img)
-    if (tileChosen.length === 2) {
+    if (tilesChosen.length === 2) {
         setTimeout(checkForMatch, 500)
     }
 }
+
 flipTile()
 
 // Can I change the flipTile function to loook this it does below?
