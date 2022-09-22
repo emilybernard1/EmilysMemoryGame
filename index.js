@@ -127,18 +127,18 @@ function checkForMatch(){
         alert('Youpi! Tu as fait un match! Yay! You made a match!')
         tile[optionOneId].setAttribute('src', 'imgArr')
         // may need to change the image source
-        tile[optionTwoId].setAttribute('src', 'imgArr')
+        tile[optionTwoId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
         tileWon.push(tileChosen)
     } else {
-        tile[optionOneId].setAttribute('src', 'imgArr')
-        tile.optionTwoId.setAttribute('src', 'imgArr')
+        tile[optionOneId].setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
+        tile.optionTwoId.setAttribute('src', 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU")')
         alert('Tant pis! Pas de match! Too bad! No match!')
     }
     tileChosen = []
     tileChosenId = []
     scoreDisplay.textContent = tileWon.length
     if (tileWon.length === imgArr.length/2) {
-        scoreDisplay.textContent = 'Féliciations! Vous avez gagné! Congratulations! You won!'
+        scoreDisplay.textContent = 'Félicitations! Vous avez gagné! Congratulations! You won!'
     }
 }
 checkForMatch()

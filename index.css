@@ -1,5 +1,5 @@
 /* To do:
-   
+    1. THE GAME BOARD and the TILES are NOT THE SAME (FIX THIS!!)
     2. Get player 1's box to be on the left
     3. Get player 2's box to be on the right
     4. Get the Refaire button to be centered under the game board. */
@@ -21,10 +21,10 @@ body {
 }
 
 #main {
+    background-color: blue;
     display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 20% 20%;
-    background-color: blue;
     position: absolute;
     width: 100%;
 }
@@ -65,6 +65,7 @@ h2 {
 /* accomplished the font size and different colors. NOT the centering.*/
 
 #gameboard {
+    background-color: white;
     margin: 0 auto;
     padding: 1em;
     grid-column-start: 2;
@@ -144,11 +145,16 @@ h2 {
     justify-items: center;
     position: relative;
     border-radius: 10px;
-    border: none;
     font-size: 20px;
     margin-left: 1em;
     cursor: pointer;
     width: 100px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+/* trying to get the refaire button to be in the second row of the main grid, not the game grid */
+main .refaireButton {
     grid-row-start: 2;
     grid-column-start: 2;
 }
