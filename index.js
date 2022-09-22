@@ -1,7 +1,5 @@
 // To Do:
-// 1. get gameboard to show up and work!
-// 2. Get reset button to work (need to modify tic tac toe code for this)
-// 3. Check notes at bottom to make sure I've done everything I wanted to.
+// 1. get the scores to show up
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -113,6 +111,8 @@ let tilesChosen = []
 let tilesChosenId = []
 const tilesWon = []
 
+let isPlayerTurn1 = true
+
 // need function to create the gameboard
 function createGameBoard () {
     for(let i = 0; i < imgArr.length; i++) {
@@ -123,6 +123,10 @@ function createGameBoard () {
         tile.addEventListener('click', flipTile)
         gameboard.appendChild(tile)
     }
+    let player1Score = document.getElementById('player1Score')
+    let player2Score = document.getElementById('player2Score')
+    player1Score.innerText = ' 0'
+    player2Score.innerText = ' 0'
 }
 
 createGameBoard()
@@ -141,10 +145,10 @@ function flipTile(event){
 }
 
 
-
-
 // need to make a function to check for a match
 function checkForMatch(){
+    // next steps! lets add a check of the current players turn (who's turn is it) on each successful match, get the appropriate players score fromt the DOM, and change it by incrementing
+    // see MDN HTML element.innerText and getElementById
     console.log(tilesChosen, tilesChosenId)
     // let tiles = document.querySelectorAll('img')
     // console.log(tiles)
@@ -173,9 +177,11 @@ function checkForMatch(){
     if (tilesWon.length === imgArr.length/2) {
         scoreDisplay.textContent = 'Félicitations! Vous avez gagné! Congratulations! You won!'
     }
+    isPlayerTurn1 = !isPlayerTurn1
 }
 
 checkForMatch()
+
 
 // when game is won-everything needs to hide
 // reset gameboard needs to remove the hidden and reset the poppy field pic
@@ -184,8 +190,10 @@ checkForMatch()
 const resetGameBoard = () => {
     let tiles = document.querySelectorAll('.carreau')
     console.log(tiles, 'in refaireButton')
-    tiles.forEach()
-
+    tiles.forEach((tile)=> {
+        tile.remove()
+    })
+    setTimeout(createGameBoard, 500)
 }
 
 refaireButton.addEventListener('click', resetGameBoard);
