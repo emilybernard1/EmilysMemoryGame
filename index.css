@@ -1,8 +1,6 @@
 /* To do:
     1. THE GAME BOARD and the TILES are NOT THE SAME (FIX THIS!!)
-    2. Get player 1's box to be on the left
-    3. Get player 2's box to be on the right
-    4. Get the Refaire button to be centered under the game board. */
+    2. Get the Refaire button to be centered under the game board. */
 
 body {
     height: 100%;
@@ -39,7 +37,7 @@ body {
     /* position: relative; */
     /* display: flex;
     flex-direction: row; */
-    grid-column-start: 1;
+    /* grid-column-start: 1; */
     background-color: yellow;
 }
 
@@ -61,15 +59,22 @@ h2 {
     font-size: 30px;
 }
 
-/* I want the game title and rules to be in the center, smaller font, different colors */
-/* accomplished the font size and different colors. NOT the centering.*/
+/* I want the game title to be in the center, smaller font, different colors */
+/* accomplished.*/
 
-#gameboard {
+.gameboard {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
-    background-color: white
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    /* I'm trying to get the board centered on the screen */
+    display: center;
+    justify-content: center;
+    align-items: center; 
+    
 }
     /* background-color: white;
     margin: 0 auto;
@@ -106,15 +111,16 @@ h2 {
     color: white;
     font-weight: 700;
     background-color: lightgrey;
-    width: 30%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
-    grid-column-start: 3;
+    /* grid-column-start: 3; */
     /* display: inline-flex; */
-    justify-content: center;
+    /* justify-items: right; */
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: right; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     border-radius: 10px;
 }
 

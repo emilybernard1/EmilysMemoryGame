@@ -1,3 +1,8 @@
+// To Do:
+// 1. get gameboard to show up and work!
+// 2. Get reset button to work (need to modify tic tac toe code for this)
+// 3. Check notes at bottom to make sure I've done everything I wanted to.
+
 document.addEventListener('DOMContentLoaded', () => {
 
 const imgArr = [ 
@@ -196,4 +201,20 @@ flipTile()
 // }
 
 // resetButton.addEventListener('click', resetGameBoard);
+
+
+// Can I modify the below to work for this?
+// const announce = (type) => {
+//     switch(type){
+//         case PLAYERO_WON:
+//             announcer.innerHTML = 'Player <span class=playero">O</span> Won';
+//             break;
+//         case PLAYERX_WON:
+//             announcer.innerHTML = 'Player <span class="playerx">X</span> Won';
+//             break;
+//         case TIE:
+//             announcer.innerText = 'Tie';
+//     }
+//     announcer.classList.remove('hide');
+// };
 })
