@@ -22,10 +22,10 @@ body {
 
 #main {
     background-color: blue;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 20% 20% 20%;
-    grid-template-rows: 20% 20%;
-    position: absolute;
+    grid-template-rows: 20% 20%; */
+    position: relative;
     width: 100%;
 }
 
@@ -65,7 +65,12 @@ h2 {
 /* accomplished the font size and different colors. NOT the centering.*/
 
 #gameboard {
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+    /* background-color: white;
     margin: 0 auto;
     padding: 1em;
     grid-column-start: 2;
@@ -77,10 +82,10 @@ h2 {
     grid-template-areas: "top-left top-left top-right"
                           "game game game"
                           "btm-left btm-right btm-right";
-                        }
+                        } */
 
 
-.tiles {
+/* .tiles {
     border: 2px solid black;
     /* commented the code below out because I'm making the game board in a grid above. */
     /* display: inline-block; */
@@ -93,7 +98,7 @@ h2 {
     background-size: cover;
     border-radius: 10px;
     cursor: pointer;
-}
+} */
 
 #rulesSection {
     font-size: 20px;

@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
 const imgArr = [ 
     {
         name: 'eiffelTower',
-        img: '/frenchmemorygamepics/eiffeltower.png',
+        img: 'frenchmemorygamepics/eiffeltower.png'
     }, 
     {
         name: 'eiffelTower',
-        img: '/frenchmemorygamepics/eiffeltower.png',
+        img: 'frenchmemorygamepics/eiffeltower.png'
     }, 
     {
         name: 'angelinas',
-        img: '/frenchmemorygamepics/angelinas.png',
+        img: 'frenchmemorygamepics/angelinas.png'
     },
     {
         name: 'angelinas',
-        img: '/frenchmemorygamepics/angelinas.png',
+        img: 'frenchmemorygamepics/angelinas.png'
     },
     {
         name: 'arcDeTriomphe',
-        img: '/frenchmemorygamepics/arcdetriomphe.png',
+        img: 'frenchmemorygamepics/arcdetriomphe.png'
     },
     {
         name: 'arcDeTriomphe',
-        img: '/frenchmemorygamepics/arcdetriomphe.png',
+        img: 'frenchmemorygamepics/arcdetriomphe.png'
     },
     {
         name: 'head',
-        img: '/frenchmemorygamepics/head.png'
+        img: 'frenchmemorygamepics/head.png'
     },
     {
         name: 'head',
-        img: '/frenchmemorygamepics/head.png'
+        img: 'frenchmemorygamepics/head.png'
     },
     {
         name: 'hotelDeVille',
-        img: '/frenchmemorygamepics/hoteldeville.png',
+        img: 'frenchmemorygamepics/hoteldeville.png'
     },
     {
         name: 'hotelDeVille',
-        img: '/frenchmemorygamepics/hoteldeville.png',
+        img: 'frenchmemorygamepics/hoteldeville.png'
     },
     {
         name: 'laduree',
-        img: '/frenchmemorygamepics/laduree.png'
+        img: 'frenchmemorygamepics/laduree.png'
     },
     {
         name: 'laduree',
-        img: '/frenchmemorygamepics/laduree.png'
+        img: 'frenchmemorygamepics/laduree.png'
     },
     {
         name: 'louvre',
-        img: '/frenchmemorygamepics/louvre.png',
+        img: 'frenchmemorygamepics/louvre.png'
     },
     {
         name: 'louvre',
-        img: '/frenchmemorygamepics/louvre.png',
+        img: 'frenchmemorygamepics/louvre.png'
     },
     {
         name: 'metroCite',
-        img: '/frenchmemorygamepics/metrocite.png',
+        img: 'frenchmemorygamepics/metrocite.png'
     },
     {
         name: 'metroCite',
-        img: '/frenchmemorygamepics/metrocite.png',
+        img: 'frenchmemorygamepics/metrocite.png'
     },
     {
         name: 'montMartre',
-        img: '/frenchmemorygamepics/montmartre.png',
+        img: 'frenchmemorygamepics/montmartre.png'
     },
     {
         name: 'montMartre',
-        img: '/frenchmemorygamepics/montmartre.png',
+        img: 'frenchmemorygamepics/montmartre.png'
     },
     {
         name: 'notreDame',
-        img: '/frenchmemorygamepics/notredame.png',
-    },
+        img: '/renchmemorygamepics/notredame.png'
+    }
     {
         name: 'notreDame',
-        img: '/frenchmemorygamepics/notredame.png',
+        img: 'frenchmemorygamepics/notredame.png'
     },
     {
         name: 'sacreCoeur',
-        img: '/frenchmemorygamepics/sacrecoeur.png',
+        img: 'frenchmemorygamepics/sacrecoeur.png'
     },
     {
         name: 'sacreCoeur',
-        img: '/frenchmemorygamepics/sacrecoeur.png',
+        img: 'frenchmemorygamepics/sacrecoeur.png'
     },
     {
         name: 'shakespeare',
-        img: '/frenchmemorygamepics/shakespeare.png',
+        img: 'frenchmemorygamepics/shakespeare.png'
     },
     {
         name: 'shakespeare',
-        img: '/frenchmemorygamepics/shakespeare.png',
+        img: 'frenchmemorygamepics/shakespeare.png'
     },
 ]
 
