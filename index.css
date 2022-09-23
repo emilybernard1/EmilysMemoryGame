@@ -27,7 +27,7 @@ body {
     width: 100%;
 }
 
-#playerScores {
+/* #playerScores {
     justify-content: center;
     align-items: left;
     vertical-align: center;
@@ -39,7 +39,7 @@ body {
     flex-direction: row; */
     /* grid-column-start: 1; */
     /* background-color: yellow; */
-}
+} */
 
 h1, h2 {
     align-items: center;
@@ -66,15 +66,26 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     height: 600px;
-    width: 800px;
+    width: 60%; 
+    /* width: 800px; */
     /* background-color: white; */
     cursor: pointer;
     position: relative;
     /* I'm trying to get the board centered on the screen */
     display: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between; 
     align-items: center; 
-    
+    margin: 60px auto; 
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+
+.tiles-won{
+    pointer-events: none;
 }
     /* background-color: white;
     margin: 0 auto;
