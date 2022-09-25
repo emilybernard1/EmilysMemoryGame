@@ -63,7 +63,7 @@ h2 {
 .gameboard {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    height: 500px;
     width: 60%; 
     /* width: 800px; */
     /* background-color: white; */
