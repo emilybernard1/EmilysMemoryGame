@@ -139,7 +139,6 @@ const resetGameBoard = () => {
     tilesWon = []
 }
 
-refaireButton.addEventListener('click', resetGameBoard);
 
 console.log(tilesChosen)
 console.log(tilesChosenId)
@@ -147,13 +146,15 @@ console.log(tilesWon)
 
 // tried to write a function to ruffle the tiles but it kept disabling the refaire button
 // (function shuffle() {
-//     tiles.forEach(gameTilesArray => {
-//       let ramdomPos = Math.floor(Math.random() * 24);
-//       tiles.style.order = ramdomPos;
-//     });
-//     return gameTilesArray;
-//   })();
-
+//         tiles.forEach(gameTilesArray => {
+//               let ramdomPos = Math.floor(Math.random() * 24);
+//               tiles.style.order = ramdomPos;
+//             });
+//             return gameTilesArray;
+// })();
+        
+        
+refaireButton.addEventListener('click', resetGameBoard);
 // another option
 // (function shuffle() {
 //     tiles.forEach(card => {
