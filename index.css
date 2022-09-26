@@ -63,8 +63,9 @@ h2 {
 .gameboard {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    width: 60%; 
+    height: 600px;
+    width: 70%; 
+    max-width: 900px;
     /* width: 800px; */
     /* background-color: white; */
     cursor: pointer;
@@ -72,10 +73,13 @@ h2 {
     /* I'm trying to get the board centered on the screen */
     display: center;
     /* justify-content: center; */
-    justify-content: space-between; 
+    /* justify-content: space-between;  */
+    justify-content: space-evenly;
     /* padding: 10px; */
     align-items: center; 
     margin: 0px auto; 
+    margin-bottom: 40px;
+    margin-top: 30px;
     /* position: absolute;
     top: 50%;
     left: 50%;
@@ -83,8 +87,8 @@ h2 {
 }
 
 .carreau {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     justify-content: space-between; 
     /* the below was an attempt to get the tiles to do a cool flip 'animation' */
@@ -153,14 +157,14 @@ h2 {
 }
 
 #rulesSection {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(6, 21, 107);
     font-weight: 700;
     background-color: lightgrey;
     /* width: 100%; */
     /* margin: 0 auto; */
     padding: 20px;
-    width: 65%;
+    width: 700px;
     /* grid-column-start: 3; */
     /* display: inline-flex; */
     /* justify-items: right; */
