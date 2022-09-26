@@ -1,10 +1,14 @@
 # EmilysMemoryGame
+<!-- nit: I wish you had taken a little more time using our markdown cheat sheet to format the readme a little bit better, it totally helps to have a preview going on while you work  -->
+<!-- nit: ex - make an h2 with ## -->
 Mémoire à la française
 
 This is a matching game, with pictures that I took in France when living there. 
 
 This game can be shared with former colleagues at ENHS, SFHS, UCO, OCCC, OU, and KSU.
 
+<!-- <!-- nit: consider using a horizontal rule to distinguish between the different sections https://www.markdownguide.org/basic-syntax/#horizontal-rules --> -->
+<!-- nit: ex - make an h3 with ### -->
 Rules: 
 -Player 1:
     -Choose two tiles. If the monuments are a match, you get a point!
@@ -52,7 +56,7 @@ Bonus (that I set for myself):
     - a div box should pop up below the game board with the question: "Qu'est-ce que c'est?" ("What is it?"), with 4 choices, once of which will be the correct answer.
     -if the player answers correctly, they earn a bonus point, which gets tallied in their points box.
 
-
+<!-- nit: spelling -->
 Scheudule for my week:
 Monday: Get approved for my game and start basic HTML mark up and CSS
 Tuesday: Finish CSS and start JS
@@ -63,6 +67,8 @@ Saturday and Sunday: Make sure all code is working and finish Bonus if I have ti
 
 
 Wire Frames and handwritten notes:
+<!-- nit: first image link is broken here on my machine, try and makes ure that all the images are uploaded into the repo so you can reference them locally  -->
+<!-- this link image is broken because the ']' has been replaced with a '}', there is a space between the alt text and the link, the link itself should have a '.' at the beginning -->
 ![first page} (/project1ideas/IMG-1.jpg)
 ![IMG-1](https://user-images.githubusercontent.com/77028684/191042254-70502287-b0d5-4d74-aae4-e4ab462c0e40.jpg)
 ![IMG-3744](https://user-images.githubusercontent.com/77028684/191091666-25b6808b-fb59-4d5e-992f-470ad08058e4.jpg)
@@ -118,5 +124,5 @@ Images of France:
 
 Idea 2:
 ![IMG-3710](https://user-images.githubusercontent.com/77028684/191043522-43538e38-61d3-4937-8823-167a2177d5e6.jpg)
+<!-- rotate this image  -->
 ![IMG-3711](https://user-images.githubusercontent.com/77028684/191043533-404c60a5-11c3-42d0-a985-2a33d63b0238.jpg)
-
