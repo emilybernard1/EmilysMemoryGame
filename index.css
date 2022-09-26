@@ -6,7 +6,7 @@ body {
     font-family: 'Poiret One', cursive;
     /* background-color: aqua; */
     /* I put in a background color temporarily just to make sure I'm styling the right area. */
-    background-image: url("/frenchmemorygamepics/IMG-3621.png");
+    background-image: url("/frenchmemorygamepics/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
