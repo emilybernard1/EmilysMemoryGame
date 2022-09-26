@@ -13,7 +13,6 @@ body {
 }
 
 #main {
-
     position: relative;
     width: 100%;
 }
@@ -75,7 +74,6 @@ h2 {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    /* margin: 0 auto; */
     padding: 10px;
     position: relative;
     border-radius: 10px;

@@ -119,8 +119,7 @@ function checkForMatch(){
     console.log('after erase', tilesChosen)
     if (tilesWon.length === imgArr.length/2) {
         // scoreDisplay.textContent = 'Félicitations! Vous avez gagné! Congratulations! You won!'
-    }
-    
+    } 
 }
 
 // function to reset the gameboard with the Refaire button
@@ -140,8 +139,6 @@ const resetGameBoard = () => {
 console.log(tilesChosen)
 console.log(tilesChosenId)
 console.log(tilesWon)
-
-
-        
+  
 refaireButton.addEventListener('click', resetGameBoard);
 })
