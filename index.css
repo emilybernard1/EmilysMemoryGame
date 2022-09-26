@@ -4,8 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Poiret One', cursive;
-    /* background-color: aqua; */
-    /* I put in a background color temporarily just to make sure I'm styling the right area. */
     background-image: url("/frenchmemorygamepics/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,27 +13,10 @@ body {
 }
 
 #main {
-    /* background-color: blue; */
-    /* display: grid;
-    grid-template-columns: 20% 20% 20%;
-    grid-template-rows: 20% 20%; */
+
     position: relative;
     width: 100%;
 }
-
-/* #playerScores {
-    justify-content: center;
-    align-items: left;
-    vertical-align: center;
-    margin: 0 auto;
-    padding: 10px;
-    /* definitely NOT using the below. Leaving here as proof that it doesn't work */
-    /* position: relative; */
-    /* display: flex;
-    flex-direction: row; */
-    /* grid-column-start: 1; */
-    /* background-color: yellow; */
-/* } */
 
 h1, h2 {
     align-items: center;
@@ -57,33 +38,20 @@ h2 {
     text-decoration: underline;
 }
 
-/* I want the game title to be in the center, smaller font, different colors */
-/* accomplished.*/
-
 .gameboard {
     display: flex;
     flex-wrap: wrap;
     height: 600px;
     width: 70%; 
     max-width: 900px;
-    /* width: 800px; */
-    /* background-color: white; */
     cursor: pointer;
     position: relative;
-    /* I'm trying to get the board centered on the screen */
     display: center;
-    /* justify-content: center; */
-    /* justify-content: space-between;  */
     justify-content: space-evenly;
-    /* padding: 10px; */
     align-items: center; 
     margin: 0px auto; 
     margin-bottom: 40px;
     margin-top: 30px;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 }
 
 .carreau {
@@ -91,12 +59,6 @@ h2 {
     height: 150px;
     border-radius: 10px;
     justify-content: space-between; 
-    /* the below was an attempt to get the tiles to do a cool flip 'animation' */
-    /* transform: rotateY(180deg);
-    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
-    transform: scale(1);
-    transform-style: preserve-3d;
-    transition: transform 1s; */
 }
 
 .tiles-won{
@@ -106,35 +68,6 @@ h2 {
 .unclickable {
     pointer-events: none;
 }
-    /* background-color: white;
-    margin: 0 auto;
-    padding: 1em;
-    grid-column-start: 2;
-    position: relative;
-    display: grid;
-    grid-gap: 1em;
-    grid-template-rows: 100px 100x 100x 100px;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px;
-    grid-template-areas: "top-left top-left top-right"
-                          "game game game"
-                          "btm-left btm-right btm-right";
-                        } */
-
-
-/* .tiles {
-    border: 2px solid black;
-    /* commented the code below out because I'm making the game board in a grid above. */
-    /* display: inline-block; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    /* height: 100px;
-    width: 100px; 
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLY-62UPoF1es3R8Ki6V5gYBLpnnJ1laig&usqp=CAU');
-    background-size: cover;
-    border-radius: 10px;
-    cursor: pointer;
-} */ 
 
 .refaireButton {
     border: 2px solid black;
@@ -152,8 +85,6 @@ h2 {
     margin-bottom: 40px;
     cursor: pointer;
     width: 100px;
-    /* grid-row-start: 2;
-    grid-column-start: 2; */
 }
 
 #rulesSection {
@@ -161,17 +92,9 @@ h2 {
     color: rgb(6, 21, 107);
     font-weight: 700;
     background-color: lightgrey;
-    /* width: 100%; */
-    /* margin: 0 auto; */
     padding: 20px;
     width: 700px;
-    /* grid-column-start: 3; */
-    /* display: inline-flex; */
-    /* justify-items: right; */
     position: relative;
-    /* display: right; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     border-radius: 10px;
     justify-content: center;
     justify-items: center;
@@ -179,38 +102,3 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-/* .player1 {
-    justify-items: left;
-    background-color: aqua;
-    height: 100px;
-    width: 30%;
-    display: inline-flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 20px;
-    position: relative;
-    border-radius: 10px;
-}
-
-.player2 {
-    justify-items: right;
-    background-color: purple;
-    height: 100px;
-    width: 30%;
-    display: inline-flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 20px;
-    position: relative;
-    border-radius: 10px;
-} */
-
-
-
-/* trying to get the refaire button to be in the second row of the main grid, not the game grid */
-/* main .refaireButton {
-    grid-row-start: 2;
-    grid-column-start: 2;
-} */
