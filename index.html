@@ -16,6 +16,7 @@
       <header>
           <h1>Mémoire à la française</h1>
       </header>
+      <!-- nit: it's more semantic / better practice to use a main tag instead -->
         <section id="main">
             <!-- <div id="playerScores">
                 <h2>Résultat (Score): <span id="result"></span></h2>
@@ -48,25 +49,29 @@
                 <div class="tiles"></div>
                 <div class="tiles"></div> -->
             </div>
+            <!-- nit: it's more semantic / better practice to use a button element here https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button -->
             <div class="refaireButton">Refaire</div>
-
+            <!-- nit: it's more semantic / better practice to use a section element here-->
             <div id="rulesSection">
                 <h2>Règles du jeux (Rules of the game)</h2>
                 <p class="frenchRules">
-                    1. On doit cliquer sur deux carreaux <br></br> 
-                    2. S'il y a un match, youpi! On a fait un match! Et les images de Paris restent visibles.<br></br>
-                    3. S'il n'y a pas de match, tant pis! Les carreaux tournent. Essaie de nouveaux! <br></br>
-                    4. Quand tous les matchs sont faits, c'est fini! On a gagné! <br></br>
-                    5. On peut cliquer sur le button, "Refaire". <br></br>
+                    <!-- nit: line breaks don't need/use closing tags, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br -->
+                    <!-- nit: line breaks are not best practice because of accessability - screen readers do not always read the contents - see the mdn notes, i suggest you use separate p tags instead with css ensureing they display correctly  -->
+                    1. On doit cliquer sur deux carreaux <br> 
+                    2. S'il y a un match, youpi! On a fait un match! Et les images de Paris restent visibles.<br>
+                    3. S'il n'y a pas de match, tant pis! Les carreaux tournent. Essaie de nouveaux! <br>
+                    4. Quand tous les matchs sont faits, c'est fini! On a gagné! <br>
+                    5. On peut cliquer sur le button, "Refaire". <br>
                 </p>
+                <!-- nit: extra p tag here doesn't do anything  -->
                 <p>
                     <h2>Rules of the Game</h2>
                     <p class="englishRules">
-                        1. Click two tiles. <br></br>
-                        2. If there's a match, yay! You made a match! And the images of Paris stay visible. <br></br>
-                        3. If there's not a match, too bad! The tiles flip back over. <br></br>
-                        4. When all of the matches are made, game over! You won! <br></br>
-                        5. Click the Refaire (Reset) button to play again! <br></br>
+                        1. Click two tiles. <br>
+                        2. If there's a match, yay! You made a match! And the images of Paris stay visible. <br>
+                        3. If there's not a match, too bad! The tiles flip back over. <br>
+                        4. When all of the matches are made, game over! You won! <br>
+                        5. Click the Refaire (Reset) button to play again! <br>
                     </p>
                 </p>
             </div>   
