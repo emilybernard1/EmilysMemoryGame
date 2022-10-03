@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Poiret One', cursive;
-    background-image: url("/frenchmemorygamepics/background.png");
+    background-image: url("./frenchmemorygamepics/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -40,13 +40,13 @@ h2 {
 .gameboard {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    height: 75%;
     width: 70%; 
     max-width: 900px;
     cursor: pointer;
     position: relative;
     display: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center; 
     margin: 0px auto; 
     margin-bottom: 40px;
@@ -54,10 +54,10 @@ h2 {
 }
 
 .carreau {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 10px;
-    justify-content: space-between; 
+    justify-content: space-between 10px; 
 }
 
 .tiles-won{
