@@ -1,9 +1,11 @@
 // ---------- TOP OF MY PRIORITY LIST OF IMPROVEMENTS !!----------//
 
 // 1.) Get the refaire button to shuffle the cards
-// 2.) Fixing teh scaling problems with the elenents on the page
+// 2.) Fixing the scaling problems with the elenents on the page
 // 3.) Create function that hides the English rules unless a button or link is clicked
 // 4.) Create a counter for the nunber of matches. When all matches are made, board would disppear and the mesage "Youpi! On a gagné!" would pop up. Upon clicking the reset button, all tile images would shuffle and all poppy tiles would reappear simultaneaously. 
+// 5.) Clean up the CSS and style it better.
+
 
 
 
@@ -48,3 +50,10 @@
     // scoreDisplay.textContent = tilesWon.length
 
       // scoreDisplay.textContent = 'Félicitations! Vous avez gagné! Congratulations! You won!'
+
+
+// ----------------- HTML NOTES --------------------- //
+// <!-- <div id="playerScores">
+// <h2>Résultat (Score): <span id="result"></span></h2>
+// <div class="player1">Joeur 1:  <div id="player1Score"></div></div>
+// <div class="player2">Jouer 2:  <div id="player2Score"></div></div>

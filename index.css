@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 
-#main {
+#gamespace {
     position: relative;
     width: 100%;
 }
@@ -85,7 +85,7 @@ h2 {
     width: 100px;
 }
 
-#rulesSection {
+#rulesDiv {
     font-size: 30px;
     color: rgb(6, 21, 107);
     font-weight: 700;
