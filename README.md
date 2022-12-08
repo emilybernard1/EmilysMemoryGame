@@ -30,12 +30,12 @@ https://frenchmemorygame.netlify.app/
 
 ## User Stories: 
 Users should be able to:
-- hoose two tiles to see the images that are hidden underneath.
+- Choose two tiles to see the images that are hidden underneath.
 - After chosen:  
     - If the tiles are a match, a point shows up in the player's point box and play goes to the next player. 
     - If the tiles are NOT a match, the pictures disappear under the beginning tile image and the next player takes their turn. 
-- If I accomplish the bonus I set for myself:
-    - nce a match is made, the player gets a chance to answer a multiple choice question about which monument it is. 
+<!-- - If I accomplish my stretch goals:
+    - Once a match is made, the player gets a chance to answer a multiple choice question about which monument it is.  -->
 - Press a reset button once the game is over to get the board to repopulate.
 - Play unlimited games.
 
@@ -72,7 +72,7 @@ Users should be able to:
 
 
 ### Wire Frames and handwritten notes:
-![first page} (/project1ideas/IMG-1.jpg)
+<!-- ![first page} (/project1ideas/IMG-1.jpg) -->
 ![IMG-1](https://user-images.githubusercontent.com/77028684/191042254-70502287-b0d5-4d74-aae4-e4ab462c0e40.jpg)
 ![IMG-3744](https://user-images.githubusercontent.com/77028684/191091666-25b6808b-fb59-4d5e-992f-470ad08058e4.jpg)
 ![IMG-2](https://user-images.githubusercontent.com/77028684/191042272-869bd119-c3be-42f2-be8b-c40f899d755a.jpg)
