@@ -5,6 +5,11 @@ This is a matching game, with pictures that I took in France when living there.
 
 This game can be shared with former colleagues at ENHS, SFHS, UCO, OCCC, OU, and KSU.
 
+
+# Deployed link:
+https://frenchmemorygame.netlify.app/
+
+
 ## Rules: 
 - Player 1:
     - Choose two tiles. If the monuments are a match, you get a point!
