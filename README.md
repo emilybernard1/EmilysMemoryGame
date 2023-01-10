@@ -71,7 +71,7 @@ Users should be able to:
 - Saturday and Sunday: Make sure all code is working and finish Bonus if I have time
 
 
-### Wire Frames and handwritten notes:
+### Wire Frames:
 ![wireframe1](/frenchmemorygamepics/WFFrenchMemoryGame.png/ "WireFrame1")
 
 <!-- ![first page} (/project1ideas/IMG-1.jpg) -->
