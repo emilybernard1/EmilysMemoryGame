@@ -72,15 +72,18 @@ Users should be able to:
 
 
 ### Wire Frames and handwritten notes:
+![wireframe1](/WFFrenchMemoryGame.png "WireFrame1")
+
 <!-- ![first page} (/project1ideas/IMG-1.jpg) -->
-![IMG-1](https://user-images.githubusercontent.com/77028684/191042254-70502287-b0d5-4d74-aae4-e4ab462c0e40.jpg)
+
+<!-- ![IMG-1](https://user-images.githubusercontent.com/77028684/191042254-70502287-b0d5-4d74-aae4-e4ab462c0e40.jpg)
 ![IMG-3744](https://user-images.githubusercontent.com/77028684/191091666-25b6808b-fb59-4d5e-992f-470ad08058e4.jpg)
 ![IMG-2](https://user-images.githubusercontent.com/77028684/191042272-869bd119-c3be-42f2-be8b-c40f899d755a.jpg)
 ![IMG-3](https://user-images.githubusercontent.com/77028684/191042283-f6144ff6-2296-4c74-800a-1ac96d6b88a2.jpg)
 ![IMG-4](https://user-images.githubusercontent.com/77028684/191042293-92382143-fb70-4433-8a19-e00c1c9ede5d.jpg)
 ![IMG-5](https://user-images.githubusercontent.com/77028684/191042303-bb394025-00af-4e5e-bb2f-a4c541a34e70.jpg)
 ![IMG-6](https://user-images.githubusercontent.com/77028684/191042319-9ec112a4-be71-4ed9-83c9-7c8b670e637c.jpg)
-![IMG-7](https://user-images.githubusercontent.com/77028684/191042334-f4547f66-56b1-4d7a-b328-1ba2b3ef4de5.jpg)
+![IMG-7](https://user-images.githubusercontent.com/77028684/191042334-f4547f66-56b1-4d7a-b328-1ba2b3ef4de5.jpg) -->
 
 
 <!-- Idea 2:
