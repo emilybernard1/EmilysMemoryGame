@@ -72,7 +72,7 @@ Users should be able to:
 
 
 ### Wire Frames and handwritten notes:
-![wireframe1](/WFFrenchMemoryGame.png "WireFrame1")
+![wireframe1](/frenchmemorygamepics/WFFrenchMemoryGame.png/ "WireFrame1")
 
 <!-- ![first page} (/project1ideas/IMG-1.jpg) -->
 
